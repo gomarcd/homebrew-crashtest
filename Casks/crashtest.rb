@@ -1,7 +1,7 @@
 cask "crashtest" do
   version "0.0.10"
   full_version = "2025.0.0.10"
-  sha256 "fd0e883e123d9fe02efa0dd4d5e560b92d4c2ba97a7c9b46308f5ab3d7170ddc"
+  sha256 "4d589a82abb2ee7f1e00c2c735b1162216b22d31a172f19b5068ea6776fac75d"
 
   url "https://github.com/gomarcd/crashtest/releases/download/v#{version}/Crashtest_#{full_version}_universal.dmg",
       verified: "github.com/gomarcd/crashtest/"
