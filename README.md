@@ -29,5 +29,8 @@ brew uninstall crashtest && brew untap gomarcd/crashtest
 If you are having any issues with Homebrew using a cached version instead of a newly downloaded version, try running:
 
 ```
-rm -rf $(brew --cache)
+brew update
+rm -rf "$(brew --cache)/Cask/crashtest--*"
+brew untap gomarcd/crashtest && brew tap gomarcd/crashtest
+brew install --cask crashtest
 ```
