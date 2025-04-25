@@ -23,3 +23,11 @@ To uninstall, do:
 ```
 brew uninstall crashtest && brew untap gomarcd/crashtest
 ```
+
+### Clear Homebrew Cache
+
+If you are having any issues with Homebrew using a cached version instead of a newly downloaded version, try running:
+
+```
+rm -rf $(brew --cache)
+```
