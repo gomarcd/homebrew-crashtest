@@ -7,13 +7,7 @@ So this repository was created. To install [Crashtest](https://github.com/gomarc
 ### Install
 
 ```
-brew tap gomarcd/crashtest
-```
-
-Followed by:
-
-```
-brew install --cask crashtest
+brew tap gomarcd/crashtest && brew install --cask crashtest
 ```
 
 ### Upgrade
@@ -27,5 +21,5 @@ brew upgrade --cask crashtest
 To uninstall, do:
 
 ```
-brew uninstall crashtest
+brew uninstall crashtest && brew untap gomarcd/crashteset
 ```
