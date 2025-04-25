@@ -21,5 +21,5 @@ brew upgrade --cask crashtest
 To uninstall, do:
 
 ```
-brew uninstall crashtest && brew untap gomarcd/crashteset
+brew uninstall crashtest && brew untap gomarcd/crashtest
 ```
